@@ -16,7 +16,7 @@ namespace MileCalculator
         {
            string ApiBaseUrl = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&";
          
-            string _apiKey = "AIzaSyCHWZXFKpqInWGRR6cq7fLKoEIq4Yk6RD0";
+            string _apiKey = " ";
 
             using (HttpClient client = new HttpClient())
             {
@@ -34,3 +34,4 @@ namespace MileCalculator
 
     }
 }
+
